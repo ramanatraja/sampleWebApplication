@@ -1,8 +1,8 @@
-node('master')
+node('built-in')
 
 {
 
-stage('ContinuousDownload_master') 
+stage('ContinuousDownload_node') 
    
 	 {
 	
@@ -10,7 +10,7 @@ stage('ContinuousDownload_master')
     
 	}
 
-stage('Continuousbuild_master') 
+stage('Continuousbuild_node') 
    
 	 {
 	
