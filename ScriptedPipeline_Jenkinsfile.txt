@@ -1,0 +1,20 @@
+node('master') 
+{
+  stage('ContinuousMasterDownload') 
+  {
+    git 'https://github.com/selenium-saikrishna/maven.git'
+  } 
+  stage('ContinuousmasterBuild') 
+  {
+    sh 'mvn package'
+  } 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+}
